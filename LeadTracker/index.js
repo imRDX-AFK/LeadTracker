@@ -5,6 +5,8 @@ const deleteBtn = document.getElementById("delete-btn")
 const ulEl = document.getElementById("ul-el")
 let leadsFromLocalstorage = JSON.parse( localStorage.getItem('myLeads') )
 
+//dummy pr
+
 if(leadsFromLocalstorage){
     myLeads = leadsFromLocalstorage
     renderLeads()
